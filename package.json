@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass --output-style compressed -o css/ css/ --source-map true"
+    "sass": "node-sass --output-style compressed -o css/ css/ --source-map true",
+    "watch": "onchange \"css/*.scss\" -- npm run sass"
   },
   "author": "",
   "license": "ISC",
