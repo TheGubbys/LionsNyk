@@ -7,6 +7,11 @@
         <a class="navbar-brand" href="#">
             <img src="./images/LionsNykLogo.png" alt="" width="auto" height="64">
         </a>
+    </div>
+</nav>
+<nav class="under navbar navbar-expand-lg navbar-light sticky-top">
+    <div class="container-fluid">
+        <div class="navbar-brand"></div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
