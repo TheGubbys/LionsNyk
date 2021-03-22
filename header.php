@@ -5,7 +5,7 @@
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img src="./images/LionsNykLogo.png" alt="" width="auto" height="48">
+            <img src="./images/LionsNykLogo.png" alt="" width="auto" height="64">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -36,13 +36,13 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Samarbejdspartnere</a>
+                    <a class="nav-link" href="#">Sponsorer</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Om Lions</a>
+                    <a class="nav-link" href="#">Lions</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Kontakt Klubben</a>
+                    <a class="nav-link" href="#">Kontakt</a>
                 </li>
             </ul>
             <form class="d-flex">
