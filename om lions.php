@@ -32,6 +32,15 @@
 <!-- Her skal sidens indhold ligge -->
 <?php include 'header.php'; ?>
 
+<div class="container">
+    <!-- Content here -->
+    <div class="row">
+        <h1>Fakta om Lions</h1>
+    </div>
+
+    <div class="row">
+        <img src="images/fakta%20om%20lions.PNG" alt="fakta om lions">
+    </div>
 
 </body>
 </html>
