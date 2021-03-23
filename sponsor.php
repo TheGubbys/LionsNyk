@@ -32,5 +32,10 @@
 
 <!-- Her skal sidens indhold ligge -->
 <?php include 'header.php'; ?>
+<div class="container">
+    <!-- Content here -->
+    <img src="images/main.PNG" alt="main">
+</div>
+
 </body>
 </html>
