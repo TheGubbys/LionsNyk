@@ -31,7 +31,6 @@
 <?php include 'header.php'; ?>
 
 
-
 <!-- Her skal sidens indhold ligge -->
 
 
