@@ -30,10 +30,12 @@
 
 <?php include 'header.php'; ?>
 
+<main role="main" class="container-fluid">
+    <!-- Her skal sidens indhold ligge -->
 
+</main>
 
-<!-- Her skal sidens indhold ligge -->
-
-
+<?php include 'footer.php'; ?>
 </body>
+
 </html>

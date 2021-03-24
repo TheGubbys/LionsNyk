@@ -22,18 +22,15 @@ $colors: (
 "lionsdarkblue": $lionsdarkblue,
 "lionsgray": $lionsgray,
 "lionsgreen": $lionsgreen,
-"lionslighrgray": $lionslightgray;
-)
+"lionslighrgray": $lionslightgray)!important;
+
 $theme-colors: (
 "lionsyellow": $lionsyellow,
 "lionsblue": $lionsblue,
 "lionsdarkblue": $lionsdarkblue,
 "lionsgray": $lionsgray,
 "lionsgreen": $lionsgreen,
-"lionslighrgray": $lionslightgray;
-)
-
-
+"lionslighrgray": $lionslightgray)!important;
 
 
 
@@ -45,4 +42,13 @@ $theme-colors: (
 .btn-header{
   background-color: $lionsyellow !important;
   font-family: Arial !important;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: $lionsblue !important;
 }

@@ -1,17 +1,18 @@
-<header class="navbar navbar-expand-sm">
+<header class="navbar navbar-expand-sm" role="navigation">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.php">
             <img src="./images/LionsNykLogo.png" alt="" width="auto" height="64">
         </a>
-        <button class="btn btn-header btn-light sm-2" type="button" href="#BlivMedlem">Bliv Medlem</button>
-        <button class="btn btn-header btn-light sm-2" type="button" href="#BlivSponsor">Bliv Sponsor</button>
+        <div>
+            <button class="btn btn-header btn-light" type="button" href="#BlivMedlem">Bliv Medlem</button>
+            <button class="btn btn-header btn-light" type="button" href="#BlivSponsor">Bliv Sponsor</button>
+        </div>
     </div>
-
 </header>
 <nav class="under navbar navbar-expand-lg navbar-dark text-white sticky-top">
     <div class="container-fluid">
         <div class="navbar-brand"></div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -29,6 +30,7 @@
                         Klubben
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Om Klubben</a></li>
                         <li><a class="dropdown-item" href="#">Medlemmer</a></li>
                         <li><a class="dropdown-item" href="#">Bliv Sponsor</a></li>
                         <li><a class="dropdown-item" href="#">Ung Udvalg</a></li>
@@ -40,6 +42,7 @@
                         Lions
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Om Lions</a></li>
                         <li><a class="dropdown-item" href="#">Lions Magasin</a></li>
                     </ul>
                 </li>
@@ -48,6 +51,7 @@
                         Aktiviteter
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Kommende aktiviteter</a></li>
                         <li><a class="dropdown-item" href="#">Kamp mod madspild</a></li>
                         <li><a class="dropdown-item" href="#">Lotteri</a></li>
                     </ul>
@@ -60,7 +64,7 @@
                         Kontakt
                     </a>
                     <ul class="dropdown-menu text-white" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Bestyrelsen</a></li>
+                        <li><a class="dropdown-item" href="#">Kontakt Lions</a></li>
                     </ul>
                 </li>
             </ul>
