@@ -34,41 +34,18 @@
 <?php include 'header.php'; ?>
 <div class="container">
     <!-- Content here -->
-    <div class="row">
+    <div class="row marg">
         <img src="images/main.PNG" alt="main">
     </div>
-    <div class="row">
-        <div class="col-12">
-            <img src="images/white.PNG" alt="white">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-5">
-
-        </div>
-        <div class="col-2">
-           <div>
-               <input type="submit" value="        BLIV   SPONSOR        ">
-           </div>
-        </div>
-        <div class="col-5">
-
-        </div>
 
 
-    </div>
 
-    <div class="row">
-        <div class="col-12">
-            <img src="images/white.PNG" alt="white">
-        </div>
-    </div>
 
 
     <div class="row">
         <div class="col-12 col-md-6 col-xl-6">
            <div class="">
-               <p>Som sponsor kan du selv bestemme hvor meget du vil donere til klubben,
+               <p class="marg text">Som sponsor kan du selv bestemme hvor meget du vil donere til klubben,
                    der vil ikke ses forskelligt på sponsorerne udfra hvor meget de hjælper til med donationer.
                    Alt er sat pris på og betyder meget for os. </p>
 
@@ -76,71 +53,34 @@
         </div>
 
         <div class="col-12 col-md-6 col-xl-6">
-            <img src="images/sponsor.PNG" alt="sponsor">
+            <img class="marg" src="images/sponsor.PNG" alt="sponsor">
         </div>
     </div>
 
 
 
     <div class="row">
-        <div class="col-5 col-md-1 col-xl-1">
 
-        </div>
         <div class="col-2">
             <div>
-                <input type="submit" value="        Doner        ">
+                <button type="button" class="btn btn-warning">Doner</button>
             </div>
         </div>
-        <div class="col-5 col-md-1 col-xl-1">
-
-        </div>
 
 
-        <div class="col-5 col-md-1 col-xl-1">
 
-        </div>
+
         <div class="col-2">
             <div>
-                <input type="submit" value="        Respons    ">
+                <button type="button" class="btn btn-success">Læsemere</button>
             </div>
         </div>
-        <div class="col-5 col-md-1 col-xl-1">
 
-        </div>
 
 
 
 
     </div>
-
-
-<!-- den før
-    <div class="row">
-
-
-        <div class="col-12 col-md-3 col-xl-3">
-            <div>
-                <input type="submit" value="        Doner        ">
-            </div>
-        </div>
-
-        <div class="col-12 col-md-1 col-xl-1">
-
-        </div>
-
-
-
-
-        <div class="col-12 col-md-3 col-xl-3">
-            <div>
-                <input type="submit" value="        Respons        ">
-            </div>
-        </div>
-
-
-
-
-    </div> -->
 
 
 
