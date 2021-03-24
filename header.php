@@ -8,12 +8,11 @@
             <button class="btn btn-header btn-light" type="button" href="#BlivSponsor">Bliv Sponsor</button>
         </div>
     </div>
-
 </header>
 <nav class="under navbar navbar-expand-lg navbar-dark text-white sticky-top">
     <div class="container-fluid">
         <div class="navbar-brand"></div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
