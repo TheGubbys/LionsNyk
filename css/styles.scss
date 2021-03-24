@@ -5,17 +5,6 @@ $lionsgray: #55565A;
 $lionsgreen: #00AB68;
 $lionslightgray: #B3B2B1;
 
-
-
-
-.marg{
-  margin: 10%;
-
-}
-
-.text{
-  font-family: Arial,sans-serif;
-}
 $colors: (
 "lionsyellow": $lionsyellow,
 "lionsblue": $lionsblue,
@@ -32,7 +21,14 @@ $theme-colors: (
 "lionsgreen": $lionsgreen,
 "lionslighrgray": $lionslightgray)!important;
 
+.marg{
+  margin: 10%;
 
+}
+
+.text{
+  font-family: Arial,sans-serif;
+}
 
 .under{
   background-color: #00338D !important;
@@ -45,7 +41,7 @@ $theme-colors: (
 }
 
 .footer{
-  position: fixed;
+  position:absolute;
   bottom: 0;
   width: 100%;
   height: 60px;

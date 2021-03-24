@@ -28,19 +28,19 @@
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
-
-<!-- Her skal sidens indhold ligge -->
 <?php include 'header.php'; ?>
 
-<div class="container">
-    <!-- Content here -->
-    <div class="row">
-        <h1 class="text">Fakta om Lions</h1>
-    </div>
+<main role="main" class="container-fluid">
+    <!-- Her skal sidens indhold ligge -->
+        <div class="row">
+            <h1 class="text">Fakta om Lions</h1>
+        </div>
+            <img class="img-fluid" src="images/fakta%20om%20lions.PNG" alt="fakta om lions">
+</main>
 
-    <div class="row">
-        <img src="images/fakta%20om%20lions.PNG" alt="fakta om lions">
-    </div>
+<?php include 'footer.php'; ?>
+
+
 
 </body>
 </html>
