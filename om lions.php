@@ -42,5 +42,8 @@
         <img src="images/fakta%20om%20lions.PNG" alt="fakta om lions">
     </div>
 
+    <?php include 'footer.php'; ?>
+
+
 </body>
 </html>
