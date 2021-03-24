@@ -1,6 +1,37 @@
 $lionsyellow: #EBB700;
 $lionsblue: #00338D;
+$lionsdarkblue: #0D2240;
 $lionsgray: #55565A;
 $lionsgreen: #00AB68;
 $lionslightgray: #B3B2B1;
 
+$colors: (
+"lionsyellow": $lionsyellow,
+"lionsblue": $lionsblue,
+"lionsdarkblue": $lionsdarkblue,
+"lionsgray": $lionsgray,
+"lionsgreen": $lionsgreen,
+"lionslighrgray": $lionslightgray;
+)
+$theme-colors: (
+"lionsyellow": $lionsyellow,
+"lionsblue": $lionsblue,
+"lionsdarkblue": $lionsdarkblue,
+"lionsgray": $lionsgray,
+"lionsgreen": $lionsgreen,
+"lionslighrgray": $lionslightgray;
+)
+
+
+
+
+
+.under{
+  background-color: #00338D !important;
+  font-family: arial !important;
+}
+
+.btn-header{
+  background-color: $lionsyellow !important;
+  font-family: Arial !important;
+}
