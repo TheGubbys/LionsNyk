@@ -34,8 +34,13 @@ $theme-colors: (
   font-family: arial !important;
 }
 
-.btn-header{
+.btn-header1{
   background-color: $lionsyellow !important;
+  font-family: Arial !important;
+}
+
+.btn-header2{
+  background-color: $lionsblue !important;
   font-family: Arial !important;
 }
 
@@ -46,4 +51,10 @@ $theme-colors: (
   height: 60px;
   line-height: 60px;
   background-color: $lionsblue !important;
+}
+
+
+.nodecor{
+  text-decoration:none;
+  color: transparent;
 }

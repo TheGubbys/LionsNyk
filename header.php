@@ -4,11 +4,11 @@
             <img src="./images/LionsNykLogo.png" alt="" width="auto" height="64">
         </a>
         <div>
-            <a href="BlivMedlem.php">
-                <button class="btn btn-header btn-light" type="button" >Bliv Medlem</button>
+            <a href="BlivMedlem.php" class="nodecor">
+                <button class="btn btn-header1 text-black" type="button" >Bliv Medlem</button>
             </a>
-            <a href="sponsor.php">
-                <button class="btn btn-header btn-light" type="button" >Bliv Sponsor</button>
+            <a href="sponsor.php" class="nodecor">
+                <button class="btn btn-header2 text-white" type="button" >Bliv Sponsor</button>
             </a>
         </div>
     </div>
@@ -46,7 +46,7 @@
                         Lions
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Om Lions</a></li>
+                        <li><a class="dropdown-item" href="om%20lions.php">Om Lions</a></li>
                         <li><a class="dropdown-item" href="#">Lions Magasin</a></li>
                     </ul>
                 </li>
