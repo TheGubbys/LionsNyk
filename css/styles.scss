@@ -1,37 +1,78 @@
-$lionsyellow: #EBB700;
-$lionsblue: #00338D;
-$lionsdarkblue: #0D2240;
-$lionsgray: #55565A;
-$lionsgreen: #00AB68;
-$lionslightgray: #B3B2B1;
+body{
+  font-family: Arial,sans-serif;
+}
+$margin-multi: 10px 5%;
+$padding-choice: 10px 10px 10px 30px;
 
-$colors: (
-"lionsyellow": $lionsyellow,
-"lionsblue": $lionsblue,
-"lionsdarkblue": $lionsdarkblue,
-"lionsgray": $lionsgray,
-"lionsgreen": $lionsgreen,
-"lionslighrgray": $lionslightgray;
-)
-$theme-colors: (
-"lionsyellow": $lionsyellow,
-"lionsblue": $lionsblue,
-"lionsdarkblue": $lionsdarkblue,
-"lionsgray": $lionsgray,
-"lionsgreen": $lionsgreen,
-"lionslighrgray": $lionslightgray;
-)
-
-
-
-
-
-.under{
-  background-color: #00338D !important;
-  font-family: arial !important;
+@mixin border{
+  border: 1px black solid;
+}
+@mixin choice{
+  padding: $padding-choice;
+  @include border;
+  margin-bottom: 30px;
+}
+@mixin btns{
+  display: flex;
+  justify-content: space-around;
+}
+@mixin center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.multi{
+  margin: $margin-multi;
+  @include border;
+  padding: 20px 20px 40px;
+}
+.choice{
+  @include choice;
+  transition: all .2s ease-in-out;
+}
+.choice:hover{
+  transform: scale(1.1);
+}
+.btns{
+  @include btns;
 }
 
-.btn-header{
-  background-color: $lionsyellow !important;
-  font-family: Arial !important;
+.btn.btn-primary{
+  background-color: #00ad6d;
+  border: none;
+}
+.btn.btn-secondary{
+  background-color: #55565A;
+  border: none;
+}
+.btn.btn-info{
+  display: block;
+  width: 200px;
+  margin:2px auto;
+  background-color: #EBB700;
+  border: none;
+}
+
+.text{
+  margin: 20px;
+  font-size: 15px;
+}
+.text p{
+  padding-bottom: 20px;
+}
+.text h1{
+  font-size: 28px;
+}
+
+@media screen and (min-width: 1200px){
+  .signup{
+    @include center;
+  }
+  .choice:hover{
+    transform: scale(1.03)
+  }
+  .img-fluid{
+    @include center;
+  }
 }
