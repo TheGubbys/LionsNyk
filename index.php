@@ -74,10 +74,14 @@
     <div class="text">
         <h1>Vi er Lions Nykøbing</h1>
         <p>Ønsker du at lære mere om hvem vi er, så klik her</p>
-        <button type="button" class="btn btn-info" href="#OmOs">Om Klubben</button>
+        <a href="om%20lions.php" class="nodecor">
+            <button class="btn btn-info text-black" type="button" >Om Lions</button>
+        </a>
         <h1>Bliv Medlem</h1>
         <p>Ønsker du at blive medlem, og støtte Lions samt det vi står for, så klik her.</p>
-        <button type="button" class="btn btn-info" href="#BlivMedlem">Bliv Medlem</button>
+        <a href="BlivMedlem.php" class="nodecor">
+            <button class="btn btn-info text-black" type="button" >Bliv Medlem</button>
+        </a>
     </div>
 </main>
 

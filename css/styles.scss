@@ -45,14 +45,32 @@ $theme-colors: (
 }
 
 .footer{
-  position:absolute;
   bottom: 0;
   width: 100%;
   height: 60px;
   line-height: 60px;
-  background-color: $lionsblue !important;
+  background-color: $lionsyellow !important;
 }
 
+.footer-icon{
+  text-align:center;
+  font-size: 40px;
+}
+.fa-facebook-square{
+  color: $lionsgray;
+}
+.fa-linkedin{
+  color: $lionsgray;
+}
+.fa-rss-square{
+  color: $lionsgray;
+}
+.fa-twitter-square{
+  color: $lionsgray;
+}
+.fa-youtube-square{
+  color: $lionsgray;
+}
 
 .nodecor{
   text-decoration:none;

@@ -62,7 +62,9 @@
                 <button type="button" class="btn btn-secondary">Afvis</button>
             </div>
         </figure>
-        <button type="button" class="btn btn-info">BLIV SPONSOR</button>
+        <a href="BlivMedlem.php" class="nodecor">
+            <button class="btn btn-info text-black" type="button" >BLIV SPONSOR</button>
+        </a>
     </div>
 </main>
 
