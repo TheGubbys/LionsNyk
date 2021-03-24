@@ -4,8 +4,12 @@
             <img src="./images/LionsNykLogo.png" alt="" width="auto" height="64">
         </a>
         <div>
-            <button class="btn btn-header btn-light" type="button" href="#BlivMedlem">Bliv Medlem</button>
-            <button class="btn btn-header btn-light" type="button" href="#BlivSponsor">Bliv Sponsor</button>
+            <a href="BlivMedlem.php">
+                <button class="btn btn-header btn-light" type="button" >Bliv Medlem</button>
+            </a>
+            <a href="sponsor.php">
+                <button class="btn btn-header btn-light" type="button" >Bliv Sponsor</button>
+            </a>
         </div>
     </div>
 </header>
